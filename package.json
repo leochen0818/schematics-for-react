@@ -1,0 +1,35 @@
+{
+  "name": "schematics-for-react",
+  "version": "0.1.0",
+  "description": "Schematics for React's project by 'create-react-app'",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics",
+    "react",
+    "reactstrap",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leochen0818/schematics-for-react"
+  },
+  "author": "Leo Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leochen0818/schematics-for-react/issues"
+  },
+  "homepage": "https://github.com/leochen0818/schematics-for-react",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^8.1.2",
+    "@angular-devkit/schematics": "^8.1.2",
+    "@phenomnomnominal/tsquery": "^3.0.0",
+    "@types/jasmine": "^3.3.9",
+    "@types/node": "^8.0.31",
+    "jasmine": "^3.3.1",
+    "typescript": "~3.4.3"
+  }
+}

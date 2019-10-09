@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "add-reactstrap": {
+      "description": "Add 'reactstrap'",
+      "factory": "./add-reactstrap"
+    }
+  }
+}
